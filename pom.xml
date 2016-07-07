@@ -18,8 +18,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstreamVersion>2.0.0</upstreamVersion>
-        <downloadUrl>https://raw.githubusercontent.com/gaearon/react-dnd-html5-backend/v${upstreamVersion}/dist</downloadUrl>
+        <upstreamVersion>2.1.2</upstreamVersion>
+        <downloadUrl>https://npmcdn.com/react-dnd-html5-backend@${upstreamVersion}/dist</downloadUrl>
         <destinationDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${version}</destinationDir>
         <requirejs>
             {
